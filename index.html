@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-12 d-none d-lg-flex align-items-center justify-content-between">
                     <div class="w-25">
-                        <a href="#" class="header__my-library d-flex justify-content-center align-items-center w-auto transition hover-bg">
+                        <a href="./src/my_library.html" class="header__my-library d-flex justify-content-center align-items-center w-auto transition hover-bg">
                             <svg class="me-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_46906_1)">
                                 <rect x="1" y="1" width="4" height="16" stroke="black" stroke-linejoin="round"/>
@@ -37,8 +37,8 @@
                     </div>
                     <div class="w-75 d-flex align-items-center justify-content-center">
                         <ul class="d-flex justify-content-between">
-                            <li class="header-list"><a href="#">Книги</a></li>
-                            <li class="header-list"><a href="#">Жанры</a></li>
+                            <li class="header-list"><a href="./src/books.html">Книги</a></li>
+                            <li class="header-list"><a href="./src/series.html">Жанры</a></li>
                         </ul>
                         <div class="header-logo d-flex justify-content-center">
                             <a href="index.html" class="d-flex align-items-center">
@@ -50,8 +50,8 @@
                             </a>
                         </div>
                         <ul class="d-flex justify-content-between">
-                            <li class="header-list"><a href="#">Аудиокниги</a></li>
-                            <li class="header-list"><a href="#">Топ книг</a></li>
+                            <li class="header-list"><a href="./src/audiobooks.html">Аудиокниги</a></li>
+                            <li class="header-list"><a href="./src/book_card.html">Топ книг</a></li>
                         </ul>
                     </div>
                     <div class="w-25 d-flex justify-content-end align-items-center">
@@ -63,7 +63,7 @@
                                 </g>
                             </svg>
                         </button>
-                        <a href="#" class="header__signUp d-none align-items-center justify-content-center w-auto transition">
+                        <a href="./src/personal_area.html" class="header__signUp d-flex align-items-center justify-content-center w-auto transition">
                             <svg class="me-2" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_46885_2)">
                                 <circle cx="9.16287" cy="5.2449" r="4.2449" stroke="black"/>
@@ -79,7 +79,7 @@
                         </a>
 
                         <!-- после регистрации -->
-                        <div class="header__user d-flex align-items-center transition w-auto">
+                        <div class="header__user d-flex align-items-center transition w-auto d-none">
                             <img loading="lazy" src="assets/img/png/user.png" alt="" class="header__user-img cropper_img rounded-circle me-2">
                             <div class="d-flex">
                                 <span class="header__user-name me-1">Еремина</span>
@@ -292,7 +292,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 col-12">
                     <p class="title__page text-center">Изменение пароля</p>
                     <p class="change-password__text">Для получения нового пароля нужно вписать в поле ниже адрес электронной почты, указанный при регистрации</p>
-                    <form action="" class="">
+                    <form>
                         <label for="userEmail2" class="form-personal__lab">
                             E-mail
                             <input type="email" id="userEmail2" class="form-personal__inp" name="E-mail" placeholder="Введите ваше почта" required>
@@ -477,7 +477,7 @@
                 <div class="col-xl-5 col-sm-8">
                     <p class="wrapper__title">Получите персональную книжную подборку</p>
                     <p class="wrapper__text">Расскажите, какие книги вам нравятся!</p>
-                    <a href="#" class="wrapper__link">Получить подборку</a>
+                    <a href="./src/personal_area.html" class="wrapper__link">Получить подборку</a>
                 </div>
                 <div class="wrapper-right col-xl-7 col-sm-4 d-flex align-items-start justify-content-center justify-content-lg-between  mt-5 mt-xl-0">
                     <img loading="lazy" src="assets/img/png/w1.png" alt="" class="wrapper__img ">
@@ -496,7 +496,7 @@
                 <div class="col-12 d-flex align-items-center justify-content-between">
                     <div class="d-flex align-items-center justify-content-between justify-content-sm-start w-100">
                         <p class="books__title">Популярное</p>
-                        <a href="#" class="books__all transition hover-bg">
+                        <a href="./src/all.html" class="books__all transition hover-bg">
                             <span class="me-2">Смотреть все</span>
                             <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.71 7.28997L4.3 4.69997C4.69 4.30997 4.69 3.67997 4.3 3.28997L1.71 0.699971C1.08 0.0799712 0 0.519971 0 1.40997V6.57997C0 7.47997 1.08 7.91997 1.71 7.28997Z" fill="black"/>
